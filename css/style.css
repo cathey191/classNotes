@@ -6,8 +6,24 @@
 
 body{
 	background-color: #82ccdd;
+	font-size: 16px;
+	font-family: sans-serif;
 }
 
 .header{
 	display: none;
+}
+
+.section{
+	padding: 2em;
+}
+
+.example{
+	font-size: 0.75em;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.example:hover{
+	font-size: 1em;
 }

@@ -11,7 +11,12 @@ body{
 }
 
 .header{
-	display: none;
+	width: 100vw;
+	top: 0px;
+}
+.nav ul li{
+	text-decoration: none;
+	display: inline-block;
 }
 
 .section{
@@ -26,4 +31,8 @@ body{
 }
 .example:hover{
 	font-size: 1.25em;
+}
+
+.crossOut{
+	text-decoration: line-through;
 }

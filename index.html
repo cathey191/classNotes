@@ -10,12 +10,13 @@
 		<div class="header">
 			<div class="nav">
 				<ul>
-					<li><a href="index.html#troubleShooting">troubleShooting</a></li>
-					<li><a href="index.html#terms">terms</a></li>
-					<li><a href="index.html#git">git</a></li>
-					<li><a href="index.html#jQueryPlugin">jQueryPlugin</a></li>
-					<li><a href="index.html#summative">summative</a></li>
-					<li><a href="index.html#lookInto">lookInto</a></li>
+					<li><a href="index.html#troubleShooting" id="troButton">Trouble Shooting</a></li>
+					<li><a href="index.html#terms" id="terButton">Terms</a></li>
+					<li><a href="index.html#bestPractices" id="besButton">Best Practices</a></li>
+					<li><a href="index.html#git" id="gitButton">git</a></li>
+					<li><a href="index.html#jQueryPlugin" id="jquButton">jQuery Plugins</a></li>
+					<li><a href="index.html#summative" id="sumButton">Summative</a></li>
+					<li><a href="index.html#lookInto" id="looButton">Look Into</a></li>
 				</ul>
 			</div>
 		</div>
@@ -56,19 +57,27 @@
 					<li>Symbol</li>
 					<li>Array - a bag that you can throw things into []</li>
 				</ul>
+				<p>(function(){})();  Iffe - immediately invoked</p>
+				<p>function declaration () {}</p>
+				<p>var expression = function () {}</p>
+				<p>Method</p>
 			</div>
 
-			<div class="section" id="git">
+			<div class="section" id="bestPractices">
+				<h3>Best Practices</h3>
+				<p>var should be in functions (Iffe), not ont he top of the script. Name conflicts if using a pluggin.</p>
+			</div>
+
+			<div class="section displayNone" id="git">
 				<h3>Git</h3>
 				<h4>Branches</h4>
 				<p>git branch    - check what branches you are in</p>
 				<p>git branch new-cat     - makes a new branch</p>
 				<p>git checkout new-cat    - changes to branch cat</p>
 				<p>git checkout new-master    -back to master</p>
-
 			</div>
 
-			<div class="section" id="jQueryPlugin">
+			<div class="section displayNone" id="jQueryPlugin">
 				<h3>jQueary - Plugin</h3>
 				<h4></h4>
 				<ol>
@@ -88,17 +97,19 @@
 				<h6 class="example">eg ninoSlider</h6>
 			</div>
 
-			<div class="section" id="summative">
+			<div class="section displayNone" id="summative">
 				<h3>Summative - Second Term</h3>
-				<ol>
+				<ul>
 					<li>jQuery plugin</li>
-				</ol>
+					<li>initializing setup first</li>
+				</ul>
 			</div>
 
 			<div class="section" id="lookInto">
 				<h3>Look Into</h3>
 				<p>var can go in functions. Look into scope</p>
 				<p>Loops</p>
+				<p>Canvas - drawing in HTML</p>
 				<p><span class="crossOut">Angular instead of jQueary (talked about at TradeME)</span> Learn JS first.</p>
 				<p>cylon.js - robotic frameworks</p>
 			</div>

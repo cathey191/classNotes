@@ -1,0 +1,12 @@
+$pColor : #1e272e;
+$hColor : #2c3e50;
+
+@mixin remA{
+	text-decoration: none;
+}
+
+@mixin pText{
+	text-decoration: none;
+	color: #1e272e;
+	font-size: 1em;
+}

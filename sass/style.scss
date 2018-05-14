@@ -46,15 +46,11 @@ h3{
 }
 
 .main{
-	// display: flex;
-	// flex-wrap: wrap;
-	// flex-direction: column;
 	padding-top: 2em;
 }
 .section{
 	padding: 1em;
 	width: 50%;
-	float: left;
 	ul, ol{
 		margin-left: 1em;
 		padding: 0.5em;
@@ -77,4 +73,14 @@ h3{
 
 .crossOut{
 	text-decoration: line-through;
+}
+
+.floatRight{
+	float: right;
+}
+.floatLeft{
+	float: left;
+}
+.clear{
+	clear: both;
 }

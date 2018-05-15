@@ -27,7 +27,7 @@ h3{
 }
 .nav, .main{
 	width: 100%;
-	max-width: 1200px;
+	max-width: 1000px;
 	margin: 0 auto;
 }
 .nav ul{
@@ -55,7 +55,16 @@ h3{
 		margin-left: 1em;
 		padding: 0.5em;
 	}
+	.terms{
+		display: flex;
+		flex-wrap: wrap;
+	}
 }
+.title{
+	padding: 1em;
+	// text-align: center;
+}
+
 
 .example{
 	font-size: 0.75em;

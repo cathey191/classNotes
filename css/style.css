@@ -36,7 +36,9 @@ h3 {
   background-color: #bdc3c7; }
 
 .main {
-  padding-top: 2em; }
+  padding-top: 2em;
+  display: flex;
+  flex-direction: column; }
 
 .section {
   padding: 1em;

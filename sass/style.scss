@@ -47,6 +47,8 @@ h3{
 
 .main{
 	padding-top: 2em;
+	display: flex;
+	flex-direction: column;
 }
 .section{
 	padding: 1em;
